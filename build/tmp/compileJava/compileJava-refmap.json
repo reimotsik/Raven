@@ -1,0 +1,73 @@
+{
+  "mappings": {
+    "keystrokesmod/client/mixin/mixins/MixinGuiUtilRenderComponents": {
+      "Lnet/minecraft/util/IChatComponent;getUnformattedTextForChat()Ljava/lang/String;": "Lnet/minecraft/util/IChatComponent;func_150261_e()Ljava/lang/String;",
+      "func_178908_a": "Lnet/minecraft/client/gui/GuiUtilRenderComponents;func_178908_a(Lnet/minecraft/util/IChatComponent;ILnet/minecraft/client/gui/FontRenderer;ZZ)Ljava/util/List;"
+    },
+    "keystrokesmod/client/mixin/mixins/MixinMinecraft": {
+      "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V"
+    },
+    "keystrokesmod/client/mixin/mixins/MixinNetworkManager": {
+      "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+      "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    },
+    "keystrokesmod/client/mixin/mixins/MixinGuiMainMenu": {
+      "initGui": "Lnet/minecraft/client/gui/GuiMainMenu;func_73866_w_()V"
+    },
+    "keystrokesmod/client/mixin/mixins/IMinecraft": {
+      "timer": "field_71428_T:Lnet/minecraft/util/Timer;"
+    },
+    "keystrokesmod/client/mixin/mixins/MixinFontRenderer": {
+      "getStringWidth": "Lnet/minecraft/client/gui/FontRenderer;func_78256_a(Ljava/lang/String;)I",
+      "renderStringAtPos": "Lnet/minecraft/client/gui/FontRenderer;func_78255_a(Ljava/lang/String;Z)V"
+    }
+  },
+  "data": {
+    "notch": {
+      "keystrokesmod/client/mixin/mixins/MixinGuiUtilRenderComponents": {
+        "Lnet/minecraft/util/IChatComponent;getUnformattedTextForChat()Ljava/lang/String;": "Leu;e()Ljava/lang/String;",
+        "func_178908_a": "Lavu;a(Leu;ILavn;ZZ)Ljava/util/List;"
+      },
+      "keystrokesmod/client/mixin/mixins/MixinMinecraft": {
+        "runTick": "Lave;s()V"
+      },
+      "keystrokesmod/client/mixin/mixins/MixinNetworkManager": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lek;a(Lff;)V",
+        "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V": "Lek;a(Lio/netty/channel/ChannelHandlerContext;Lff;)V"
+      },
+      "keystrokesmod/client/mixin/mixins/MixinGuiMainMenu": {
+        "initGui": "Laya;b()V"
+      },
+      "keystrokesmod/client/mixin/mixins/IMinecraft": {
+        "timer": "Y:Lavl;"
+      },
+      "keystrokesmod/client/mixin/mixins/MixinFontRenderer": {
+        "getStringWidth": "Lavn;a(Ljava/lang/String;)I",
+        "renderStringAtPos": "Lavn;a(Ljava/lang/String;Z)V"
+      }
+    },
+    "searge": {
+      "keystrokesmod/client/mixin/mixins/MixinGuiUtilRenderComponents": {
+        "Lnet/minecraft/util/IChatComponent;getUnformattedTextForChat()Ljava/lang/String;": "Lnet/minecraft/util/IChatComponent;func_150261_e()Ljava/lang/String;",
+        "func_178908_a": "Lnet/minecraft/client/gui/GuiUtilRenderComponents;func_178908_a(Lnet/minecraft/util/IChatComponent;ILnet/minecraft/client/gui/FontRenderer;ZZ)Ljava/util/List;"
+      },
+      "keystrokesmod/client/mixin/mixins/MixinMinecraft": {
+        "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V"
+      },
+      "keystrokesmod/client/mixin/mixins/MixinNetworkManager": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+        "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      },
+      "keystrokesmod/client/mixin/mixins/MixinGuiMainMenu": {
+        "initGui": "Lnet/minecraft/client/gui/GuiMainMenu;func_73866_w_()V"
+      },
+      "keystrokesmod/client/mixin/mixins/IMinecraft": {
+        "timer": "field_71428_T:Lnet/minecraft/util/Timer;"
+      },
+      "keystrokesmod/client/mixin/mixins/MixinFontRenderer": {
+        "getStringWidth": "Lnet/minecraft/client/gui/FontRenderer;func_78256_a(Ljava/lang/String;)I",
+        "renderStringAtPos": "Lnet/minecraft/client/gui/FontRenderer;func_78255_a(Ljava/lang/String;Z)V"
+      }
+    }
+  }
+}
